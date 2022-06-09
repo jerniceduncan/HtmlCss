@@ -106,10 +106,16 @@ a{
 #first .cta:hover{
     color: white;
     background-color: coral;
-
-
 }
 /* End First Section*/
+
+
+
+/* Middle Section */
+
+
+/* End Middle Section */
+
 
 /* Keyframes */
 @keyframes text_reveal_box{
