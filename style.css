@@ -182,9 +182,9 @@ text-align: center;
 
 
 /* Keyframes */
-@keyframes text_reveal_box{
+ @keyframes text_reveal_box{
 50%{
-        width: 100%;
+        /* width: 100%; */
         left:0;
 }
 100%{
@@ -204,6 +204,6 @@ text-align: center;
         font-weight: 500px;
     
     }
-}
+} 
 
 /* End of Keyframes */
