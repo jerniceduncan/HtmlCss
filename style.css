@@ -21,8 +21,30 @@ a{
     justify-content: center;
 }
 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 
 }
+p{
+    color: black;
+    text-align: left;
+      font-size:  1.4rem;
+      line-height: 1.9rem;
+}
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    text-align: center;
+    }
+.section-title span{
+        color:coral
+    }
+
 
 /* First Section*/
 #first{
@@ -124,18 +146,7 @@ img{
   margin: 0;
   padding: 100px 0;
 }
-#middle .section-title{
-font-size: 4rem;
-font-weight: 300;
-color: black;
-margin-bottom: 10px;
-text-transform: uppercase;
-letter-spacing: 2rem;
-text-align: center;
-}
-#middle .section-title span{
-    color:coral
-}
+
 #middle .middle-top p{
     font-size: 1.4rem;
     margin-top: 5px;
@@ -148,6 +159,8 @@ text-align: center;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px ;
+
 
 
 }
@@ -164,6 +177,7 @@ text-align: center;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 
  
 }
@@ -193,23 +207,37 @@ text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-#middle .middle-item p{
-  color: black;
-  text-align: left;
-    font-size:  1.4rem;
-    line-height: 1.9rem;
-    
-
-}
-#middle .middle-bottom .icon .img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    color:coral;
-
-}
-
 /* End Middle Section */
+
+/* Projects Section */
+#projects .projects{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0
+}
+#projects .projects-header h1{
+    margin-bottom: 50px;
+
+}
+#projects .all-projects{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#projects .project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin:20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+/* End Projects Section */
 
 
 /* Keyframes */
